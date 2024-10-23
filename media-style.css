@@ -1,0 +1,166 @@
+@media screen and (max-width: 698px) {
+    #search-box {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    #login-btn{
+        display: none;
+    }
+    #home-btn{
+        display: none;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1200px) {
+    #menu-btn{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1201px) {
+    #f-lcontainer{
+        display: block;
+    }
+    #f-lcontainer .left{
+        width: 100%;
+    }
+    #f-lcontainer .right{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:855px) {
+    .f-in{
+        display: block;
+    }
+
+}
+@media screen and (max-width:820px) {
+    .data-in{
+        display: block;
+    }
+
+}
+@media screen and (min-width:420px) and (max-width:548px) {
+    .all-right{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:420px){
+    .all-right{
+        display: block
+    }
+    .all-right div{
+        margin: 20px;
+    }
+    .s-heading{
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width:408px){
+    .new-logo{
+        position: relative;
+        bottom: 35px;
+        left: 200px;
+    }
+    .menu-active{
+        position: absolute
+    }
+    #main-mobile-view{
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px){
+    #courses{
+        display: block;
+    }
+    .course-right, .course-left{
+        width: 100%;
+        margin: 20px 0px;
+    }
+}
+@media screen and (max-width:364px){
+    .new-logo{
+        position: relative;
+        bottom: 35px;
+        left: 130px;
+    }
+}
+@media screen and (max-width:1184px){
+    .box{
+        width: 100%;
+    }
+}
+@media screen and (max-width:334px){
+    #mobile-view-nav{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 444px) {
+    #data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    #f-mail-text{
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 980px) {
+    #mobile-view-nav {
+      display: none;
+    }
+  }
+  
+
+  @media (max-width: 1040px) {
+    .card {
+        width: 100%; /* Adjust width to 100% for smaller screens */
+    }
+}
+@media (max-width:1060px) {
+    .inside-card1{
+        width: 100%;
+    }
+    .inside-card2{
+        width: 100%;
+    }
+}
+@media (max-width:1460px) {
+    /* .expert-card{
+        width: 100%;
+    } */
+     .expertcard-container{
+         justify-content: center;
+     }
+    
+}
+
+@media (max-width:832px){
+    .card-container{
+        justify-content: center;
+        
+    }
+
+}
+
+@media (max-width:449px) {
+    .inside-card1 .btn{
+        width: 150px;
+    }
+    .inside-card2 .btn{
+        width: 150px;
+    }
+}
